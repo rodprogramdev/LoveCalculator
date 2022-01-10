@@ -19,10 +19,21 @@
     </header>
     <section>
         <p>Name of Person 1</p>
-        <input type="text" placeholder="Name of Person 1">
+        <input type="text" placeholder="Name of Person 1" id="person1">
         <p>Name of Person 2</p>
-        <input type="text" placeholder="Name of Person 2">
+        <input type="text" placeholder="Name of Person 2" id="person2">
+        <p id="score"></p>
+        <br>
+        <button id="btn" onclick="calculate();">Calculate</button>
     </section>
-    
+    <script>
+    function calculate(){
+        var compatibilityScore = Math.random() * 100;
+        compatibilityScore = Math.floor(compatibilityScore) +1;
+        var score = document.getElementById("score").innerHTML = compatibilityScore + "%";
+
+        
+    }
+    </script>
 </body>
 </html>
