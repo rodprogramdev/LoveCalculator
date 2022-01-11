@@ -18,13 +18,20 @@
         
     </header>
     <section>
-        <p>Name of Person 1</p>
-        <input type="text" placeholder="Name of Person 1" id="person1">
-        <p>Name of Person 2</p>
-        <input type="text" placeholder="Name of Person 2" id="person2">
+        <div class="container">
+            <div class="items"><p>Name of Person 1</p>
+                <input type="text" placeholder="Name of Person 1" id="person1">
+            </div>
+            <div class="items"><button id="btn" onclick="calculate();">Calculate</button></div>
+            <div class="items"> <p>Name of Person 2</p>
+                <input type="text" placeholder="Name of Person 2" id="person2"></div>
+                
+        </div>
+       
+        
+        
+
         <p id="score"></p>
-        <br>
-        <button id="btn" onclick="calculate();">Calculate</button>
     </section>
     <script>
     function calculate(){
