@@ -9,6 +9,12 @@ body{
     background-color: pink;
     text-align: center;
     padding: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    
+    text-shadow: -4px 1px 5px black;
+    
 }
 
 .description{
@@ -29,7 +35,7 @@ body{
    background-color:rgb(21, 255, 0);
    border: .2rem solid black;
    border-radius: 5%;
-   padding: 2% 2%;
+   padding: 5% 10%;
    margin: 5% 0%;
    font-weight: 700;
 }
