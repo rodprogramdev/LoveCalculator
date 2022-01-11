@@ -10,8 +10,16 @@ body{
     text-align: center;
 }
 
+#score{
+    padding: 2%;
+}
+
 #btn{
-   
-   
+   background-color:rgb(21, 255, 0);
+   border: .2rem solid black;
+   border-radius: 2%;
+   padding: 1%;
+   margin: 1% 0%;
+   font-weight: 700;
 }
 
